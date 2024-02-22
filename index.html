@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Validação</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="/favicon/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="conteiner">
+        <section class="header">
+            <h2>Formulário</h2>
+        </section>
+        <div class="conteiner-form">
+            <form id="form" class="form" novalidate>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Insira seu Nome">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="(00) 00000-0000">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="xxx@gmail.com">
+                <label for="CPF">CPF:</label>
+                <input type="text" name="CPF" id="cpf" placeholder="Insira seu CPF">
+                <label for="endereco">Endereço Completo:</label>
+                <input type="text" name="endereco" id="endereco" placeholder="Insira seu Endereço Completo">
+                <label for="endereco">CEP:</label>
+                <input type="text" name="cepe" id="cep" placeholder="Insira seu CEP">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Como virar dev em 6 meses?"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/jquery.mask.min.js"></script>
+    <script src="/js/jquery.validate.min.js"></script>
+    <script src="/js/messages_pt_BR.min.js"></script>
+    <script src="/main.js"></script>
+</body>
+</html>

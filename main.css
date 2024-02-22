@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    background-color: #121212;
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner {
+    background-color: #fafafa;
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.header {
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    padding: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+.form {
+    padding: 18px;
+}
+
+.conteiner-form {
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+}
+
+.conteiner-form label {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.conteiner-form input,
+.conteiner-form textarea {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: solid 1px  #3498db;
+}
+.conteiner-form textarea {
+    resize: none;
+    width: 100%;
+}
+
+.conteiner-form button {
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button:hover{
+    background: linear-gradient(to right, #2ecc71, #3498db);
+
+}
+/* Adicione qualquer estilo adicional aqui conforme necessário */
